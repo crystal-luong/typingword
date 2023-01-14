@@ -62,6 +62,8 @@ function init() {
     buttonPlay.style.display ='none';
    
     
+   
+    
 }
 buttonPlay.onclick = function buttonClick() {
     showWord(words); 
@@ -69,6 +71,7 @@ buttonPlay.onclick = function buttonClick() {
     score = 0;
     scoreDisplay.innerHTML = score;
     wordInput.value = '';
+    messageText.innerHTML = '';
 }
 
 function startMatch() {
